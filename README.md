@@ -6,6 +6,31 @@ O objetivo é fornecer um **guia reprodutível**, organizado e baseado em boas p
 
 ---
 
+## 📑 Índice
+
+* [🎯 Objetivo do projeto](#-objetivo-do-projeto)
+* [💻 Hardware testado](#-hardware-testado)
+* [🐧 Sistemas testados](#-sistemas-testados)
+* [📁 Estrutura do repositório](#-estrutura-do-repositório)
+
+### 📘 Documentação
+
+* [🖥️ Informações de Hardware – IdeaPad Slim 3 15ARP10](hardware/ideapad-slim-3-15arp10.md)
+* [⚙️ Pós-instalação – Debian / LMDE](post-install/debian-lmde.md)
+
+### 🧰 Ambiente e Ferramentas
+
+* [🐳 Docker, Docker Compose e Portainer](docker/)
+* [🧑‍💻 Ambiente de Desenvolvimento](dev/)
+
+### 📄 Outros
+
+* [📐 Template de documentação](docs/TEMPLATE.md)
+* [🤝 Contribuições](#-contribuições)
+* [📜 Licença](#-licença)
+
+---
+
 ## 🎯 Objetivo do projeto
 
 * Documentar passo a passo o pós-instalação do Linux
@@ -39,13 +64,14 @@ O objetivo é fornecer um **guia reprodutível**, organizado e baseado em boas p
 
 ## 📁 Estrutura do repositório
 
-```
+```text
 lenovo-ideapad-slim3-linux
 ├── README.md
 ├── hardware/        # Informações e especificações do notebook
 ├── post-install/    # Guias de pós-instalação (firmware, Mesa, Vulkan)
 ├── docker/          # Docker, Docker Compose e Portainer
 ├── dev/             # Ambiente de desenvolvimento (VS Code, etc.)
+├── docs/            # Templates e documentação auxiliar
 └── scripts/         # Scripts auxiliares (coleta de informações, checks)
 ```
 
